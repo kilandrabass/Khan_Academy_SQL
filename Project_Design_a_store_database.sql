@@ -3,7 +3,6 @@ in. You should have a table for all the items in your store, and at least 5 colu
 You should sell at least 15 items, and use select statements to order your items by price and show at least one statistic 
 about the items.*/
 
-```sql
 CREATE TABLE Kilandras_Store (id INTEGER PRIMARY KEY, item_name TEXT, quantity INTEGER, price INTEGER, aisle INTEGER); 
 INSERT INTO Kilandras_Store VALUES (1, "Jordans", 5, 100, 3);
 INSERT INTO Kilandras_Store VALUES (2, "Bucket Hats", 20, 10, 7);
