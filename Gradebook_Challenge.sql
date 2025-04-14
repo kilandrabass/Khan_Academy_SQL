@@ -1,3 +1,6 @@
+git add screenshot.png demo.gif logo.png
+    
+
 ## Step 1
 We've created a database to track student grades, with their name, number grade, and what percent of activities they've completed. In this first step, select all of the rows, and display the name, number_grade, and percent_completed, which you can compute by multiplying and rounding the fraction_completed column.
 
