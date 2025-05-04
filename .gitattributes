@@ -1,0 +1,18 @@
+
+# Explicitly identify all SQL files
+*.sql linguist-language=SQL
+*.sqlite linguist-language=SQL
+*.sqllite linguist-language=SQL
+*.db linguist-language=SQL
+
+# For any SQL files without standard extensions, add them below:
+# Example:
+# khan_academy_* linguist-language=SQL
+# *_query linguist-language=SQL
+
+# Exclude specific directories from language statistics (if needed)
+# example/vendor/* linguist-vendored
+# documentation/* linguist-documentation
+
+# Handle specific file patterns, if needed
+# *.md linguist-detectable=false
