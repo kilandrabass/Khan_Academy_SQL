@@ -1,4 +1,8 @@
+# Force all files in Khan_Academy_Projects directory to be SQL
+Khan_Academy_Projects/* linguist-language=SQL
 
+# Explicitly mark certain files as SQL
+*.sql linguist-language=SQL
 # Explicitly identify all SQL files
 *.sql linguist-language=SQL
 *.sqlite linguist-language=SQL
